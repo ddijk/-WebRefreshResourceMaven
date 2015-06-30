@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.0"
+              xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd">
+    <application>
+        <locale-config>
+            <default-locale>nl_NL</default-locale>
+            <supported-locale>nl_NL</supported-locale>
+            <supported-locale>de_DE</supported-locale>
+            <supported-locale>fr_FR</supported-locale>
+            <supported-locale>en_US</supported-locale>
+        </locale-config>
+        <resource-bundle>
+            <base-name>nl.ortecfinance.opal.webrefreshresourcemaven.DynamicResourceBundle</base-name>
+            <var>message</var>
+        </resource-bundle>
+    </application>
+</faces-config>
